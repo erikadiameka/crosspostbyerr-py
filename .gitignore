@@ -1,0 +1,20 @@
+# Mengabaikan Virtual Environment
+venv/
+.venv/
+env/
+
+# Mengabaikan file konfigurasi rahasia & Token API
+.env
+
+# Mengabaikan Session Login Browser (Biar akun lu gak dicuri orang)
+config/tiktok_session/
+
+# Mengabaikan file video testing (biar push-nya ringan gak boncos kuota)
+*.mp4
+*.avi
+*.mkv
+
+# Mengabaikan file log, cache Python, dan hasil screenshot error
+__pycache__/
+*.png
+*.log
